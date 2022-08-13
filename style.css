@@ -148,3 +148,13 @@ button {
 .sottotesto{
     font-size: 12px;
 }
+/*creazione footer box*/
+
+.footer {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
