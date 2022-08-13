@@ -121,8 +121,30 @@ img {
     display: flex;
     justify-content: space-around;
     background-color: #3882f6;
-    flex: 0 1 auto ;
-    padding: 42px;
-    gap: 20px   ;
+    width: 700px;
+    padding: 32px;
+    gap: 20px ;
+    border-radius: 8px;
+    color: white;
 
+}
+
+/* formattazione button */
+
+button {
+    font-weight: 900;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid;
+    padding: 8px 16px;
+    border-radius: 8px;
+    
+}
+
+.azione {
+    font-size: 18px;
+    font-weight: 900;
+}
+.sottotesto{
+    font-size: 12px;
 }
