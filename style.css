@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.box-1 {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.box-2 {
+    background-color: aqua;
+}
+
+.box-3 {
+    background-color: #e5e7eb;
+}
+
+.box-4 {
+    
+}
+
+.box-5 { 
+    background-color: rgb(77, 110, 38);
+    
+}
+
+/*INZIO FORMATTAZIONE BOX-1*/
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    /* disposizione orizzontale elenco puntato */
+    display: inline;
+    padding: 20px;
+}
+
+a{
+    /*elimino colore blue e sottolineatura tipaca dei link*/
+
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    /*aggiusto immagine di steve jobs*/
+
+     max-width: 400px;
+     max-width: 200px;
+}
+
+/*INZIO FORMATTAZIONE BOX-2*/
+
+.titolo {
+    text-align: center;
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+
+
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.scatole {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    width: 150px;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.descrizione {
+    text-align: justify;
+}
+
+/*INIZIO FORMATTAZIONE BOX-3*/
+
+.box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    
+}
+.citazione{
+
+    width: 700px;
+}
+
+.corpo-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    text-align: right;
+}
+
+/*inizio formattazione box-4*/
+
+.box-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+   
+
+}
+.container-4{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+    flex: 0 1 auto ;
+    padding: 42px;
+    gap: 20px   ;
+
+}
