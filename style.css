@@ -29,7 +29,9 @@ body {
 /*INZIO FORMATTAZIONE BOX-1*/
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #f9faf8;
     
 }
 
@@ -37,6 +39,8 @@ ul li {
     /* disposizione orizzontale elenco puntato */
     display: inline;
     padding: 20px;
+    font-size: 18px;
+    color: E5E7EB;
     
 }
 
@@ -98,7 +102,9 @@ a{
     
 }
 .citazione{
-
+    font-size: 36px;
+    color: #1F2937;
+    font-style:  italic;
     width: 700px;
 }
 
@@ -109,6 +115,7 @@ a{
 
 .quote {
     text-align: right;
+    font-weight: bold;
 }
 
 /*inizio formattazione box-4*/
@@ -168,14 +175,14 @@ button {
 
     padding-left: 100px;
     padding-right: 100px;
-    height: 250px;
+    height: 325px;
+    
 
 }
 
 .container-1 {
     display: flex;
-    
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -183,14 +190,34 @@ button {
     
     height: 166.88px;
     width: 380px;
-    margin-right: 20px;
-    
-    
+    margin-right: 20px;    
 }
 .left-half {
-    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 350px;
+    align-items: flex-start;
+    gap: 10px;
 }
+
+.p1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: F9FAF8;
+}
+.p2 {
+    font-size: 18px;
+    color: E5E7EB;
+}
+.container-1 button {
+    border: 0px solid;
+    
+
+}
+.prova {
+    margin-left: 148px;
+    margin-right: 148px;
+}
+    
+    
