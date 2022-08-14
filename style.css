@@ -30,15 +30,21 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    
+    
+}
+
+.ph { 
+    padding-top: 10px;
     font-size: 24px;
     color: #f9faf8;
-    
+
 }
 
 ul li {
     /* disposizione orizzontale elenco puntato */
     display: inline;
-    padding: 20px;
+    padding-right:15px;
     font-size: 18px;
     color: E5E7EB;
     
