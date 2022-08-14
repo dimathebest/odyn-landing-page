@@ -10,7 +10,7 @@ body {
 }
 
 .box-2 {
-    background-color: aqua;
+    
 }
 
 .box-3 {
@@ -82,7 +82,7 @@ img {
     width: 150px;
     height: 150px;
     /*arrotondare e colorare bordi immagini*/
-    border: 2px solid #3882f6;
+    border: 2.5px solid #3882f6;
     /*funzione per arrotondare agli angoli dei bordi*/
     border-radius: 8px;
 }
