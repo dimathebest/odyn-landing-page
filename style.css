@@ -29,13 +29,15 @@ body {
 /*INZIO FORMATTAZIONE BOX-1*/
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 ul li {
     /* disposizione orizzontale elenco puntato */
     display: inline;
     padding: 20px;
+    
 }
 
 a{
@@ -45,12 +47,7 @@ a{
     color: white;
 }
 
-img {
-    /*aggiusto immagine di steve jobs*/
 
-     max-width: 400px;
-     max-width: 200px;
-}
 
 /*INZIO FORMATTAZIONE BOX-2*/
 
@@ -78,7 +75,7 @@ img {
     
     
 }
-img {
+.scatole img {
     width: 150px;
     height: 150px;
     /*arrotondare e colorare bordi immagini*/
@@ -164,4 +161,36 @@ button {
     align-items: center;
     background-color: #1F2937;
     color: white;
+}
+/*INIZIO FORMATTAZIONE BOX-1*/
+.box-1 {
+    
+
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 250px;
+
+}
+
+.container-1 {
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+
+}
+.right-half img {
+    
+    height: 166.88px;
+    width: 380px;
+    margin-right: 20px;
+    
+    
+}
+.left-half {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 350px;
 }
